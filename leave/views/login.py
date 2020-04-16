@@ -1,5 +1,5 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 
-# Create your views here.
 def login(request):
     return render(request, 'leave/login.html', {})
